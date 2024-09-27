@@ -1,0 +1,47 @@
+body {
+    background-color: #b6b6b6;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    font-size: 3vh;
+}
+
+.container {
+    display: grid;
+    grid-template-rows: auto 3vw;
+    margin: 12%;
+    align-items: center;
+    
+}
+
+
+
+#inputs {
+    display: grid;
+    grid-template-columns: auto 20vw;
+
+    height: 100%;
+    width: 100%;
+}
+
+#inputs * {
+    font-size: 3vw;
+}
+
+#history {
+    display: grid;
+    text-align: left;
+}
+
+#history p {
+
+    height: 2vw;
+}
+
+.correct {
+    color: green
+}
+
+.incorrect {
+    color: red
+}
